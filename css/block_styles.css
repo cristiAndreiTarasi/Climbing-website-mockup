@@ -6,6 +6,7 @@
   checkbox
   input
 */
+
 /*===================================================
                     BLOCK
 ===================================================*/
@@ -18,6 +19,16 @@ outer most elements inside the <main> tag
   background: url(../images/jumbo_bg.jpg) bottom center;
   background-size: cover;
   height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 1fr;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .about {

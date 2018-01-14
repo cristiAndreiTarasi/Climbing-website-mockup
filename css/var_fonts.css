@@ -1,0 +1,50 @@
+/*===================================================
+                    VARIABLES & FONTS
+===================================================*/
+/*--------------------------------------------------
+This document contains all the variables and fonts used
+throughout the entire project
+--------------------------------------------------*/
+
+
+
+
+
+/*==================== VARIABLES ====================*/
+
+:root {
+  --bodyClr: #f7f4ed;
+  --actClr: #eadf35;
+  --title: 'Raleway', sans-serif;
+  --bodyCopy: 'Lato', sans-serif;
+}
+
+
+/*==================== FONTS ====================*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

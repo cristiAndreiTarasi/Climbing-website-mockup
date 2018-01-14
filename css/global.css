@@ -1,0 +1,54 @@
+/*===================================================
+                    GLOBAL STYLES
+===================================================*/
+/*--------------------------------------------------
+This document contains general styling rules of the 
+entire BODY 
+--------------------------------------------------*/
+
+body { 
+  background-color: var(--bodyClr); 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--title);
+}
+
+p {
+  font-family: var(--bodyCopy);
+}
+
+img {
+  max-width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

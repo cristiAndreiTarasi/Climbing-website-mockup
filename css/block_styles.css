@@ -1,7 +1,3 @@
-.person { }
-.person__head { }
-.person__head--tall { }
-.person--tall { }
 
 /*
   header
@@ -10,13 +6,39 @@
   checkbox
   input
 */
+/*===================================================
+                    BLOCK
+===================================================*/
+/*--------------------------------------------------
+This document contains all the major block styles, the
+outer most elements inside the <main> tag
+--------------------------------------------------*/
 
+.jumbo {
+  background: url(../images/jumbo_bg.jpg) bottom center;
+  background-size: cover;
+  height: 100vh;
+}
 
+.about {
+  background-color: brown;
+  height: 100vh;
+}
 
+.offer {
+  background-color: lightcoral;
+  height: 100vh;
+}
 
+.clients {
+  background-color: lightgreen;
+  height: 100vh;
+}
 
-
-
+.footer {
+  background-color: lightblue;
+  height: 100vh;
+}
 
 
 

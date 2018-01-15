@@ -11,8 +11,11 @@
                     BLOCK
 ===================================================*/
 /*--------------------------------------------------
-This document contains all the major block styles, the
-outer most elements inside the <main> tag
+This document contains all the major block styles, the outer most elements
+inside the <main> tag
+
+The block shouldn't influence its environment, meaning you shouldn't set the
+external geometry (margin) or positioning for the block.
 --------------------------------------------------*/
 
 .jumbo {
@@ -30,6 +33,18 @@ outer most elements inside the <main> tag
   justify-content: flex-end;
   align-items: center;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.more {
+  justify-self: center;
+}
+
 
 .about {
   background-color: brown;

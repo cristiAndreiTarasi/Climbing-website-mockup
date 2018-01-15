@@ -10,12 +10,56 @@
                     ELEMENT
 ===================================================*/
 /*--------------------------------------------------
-This document contains all the Blocks Elements styles, the
-immediate child elements inside the BLOCK elements
+This document contains all the Blocks Elements styles, the immediate child
+elements inside the BLOCK elements
+
+The structure of an element's full name is block-name__element-name. The element
+name is separated from the block name with a double underscore (__).
+
+A composite part of a block that can't be used separately from it.
+Elements can be nested inside each other
 --------------------------------------------------*/
 
 .social__item{
   margin-right: 30px;
+}
+
+.social__link {
+  color: var(--linkClr);
+}
+
+.card__head {
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+.card__title {
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--darkText);
+  padding-top: 20vh;
+}
+
+.card__subtitle {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--darkText);
+  padding-top: 10vh;
+}
+
+.more__button {
+  margin-bottom: 10vh;
+  background-color: rgba(234, 223, 53, 0.7);
+  border: 1px solid var(--acntClr);
+  border-radius: 2px;
+  padding: 10px 40px;
+
+  color: var(--darkText);
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 

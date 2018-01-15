@@ -16,8 +16,9 @@ This document contains all the styles meant to alter
 or modify elements
 --------------------------------------------------*/
 
-.social--link {
-  color: var(--linkClr);
+.card__head--bolded {
+  font-weight: 700;
+  color: var(--acntClr);
 }
 
 

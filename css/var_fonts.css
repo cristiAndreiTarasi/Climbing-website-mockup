@@ -14,10 +14,11 @@ throughout the entire project
 
 :root {
   --bodyClr: #f7f4ed;
-  --actClr: #eadf35;
+  --acntClr: #eadf35;
   --title: 'Raleway', sans-serif;
   --bodyCopy: 'Lato', sans-serif;
   --linkClr: #efece7;
+  --darkText: #33302c;
 }
 
 

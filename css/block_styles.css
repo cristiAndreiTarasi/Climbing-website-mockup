@@ -58,7 +58,7 @@ external geometry (margin) or positioning for the block.
 .offer {
   height: 100vh;
   background: url(../images/sds.jpg) center;
-  background-color: var(--yellAcntClr);
+  background-color: var(--blueAcntClr);
   background-blend-mode: multiply;
   background-size: cover;
 

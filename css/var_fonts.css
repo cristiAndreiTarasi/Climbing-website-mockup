@@ -14,7 +14,8 @@ throughout the entire project
 
 :root {
   --bodyClr: #f7f4ed;
-  --acntClr: #eadf35;
+  --yellAcntClr: #eadf35;
+  --blueAcntClr: #c1e3e5;
   --title: 'Raleway', sans-serif;
   --bodyCopy: 'Lato', sans-serif;
   --linkClr: #efece7;

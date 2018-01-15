@@ -53,7 +53,7 @@ Elements can be nested inside each other
 .more__button {
   margin-bottom: 10vh;
   background-color: rgba(234, 223, 53, 0.7);
-  border: 1px solid var(--acntClr);
+  border: 1px solid var(--yellAcntClr);
   border-radius: 2px;
   padding: 10px 40px;
 
@@ -70,12 +70,10 @@ Elements can be nested inside each other
   background: url(../images/about_section.jpg) center;
   background-size: cover;
   height: 100vh;
-  margin: 10px 5px 10px 10px;
 }
 
 .about__right {
-  background-color: var(--acntClr);
-  margin: 10px 10px 10px 5px;
+  background-color: var(--yellAcntClr);
 
   display: flex;
   flex-direction: column;
@@ -91,7 +89,7 @@ Elements can be nested inside each other
   justify-content: center;
 }
 
-.article__title {
+.about .article__title {
   font-size: 2em;
   text-transform: uppercase;
   font-weight: 700;
@@ -99,7 +97,7 @@ Elements can be nested inside each other
   padding-bottom: 5vh;
 }
 
-.article__copy {
+.about .article__copy {
   line-height: 20px;
   color: var(--darkText);
 }
@@ -107,23 +105,47 @@ Elements can be nested inside each other
 
 
 /*.offer elements styles*/
-.offer__right {
-  background: url(../images/about_section.jpg) center;
-  background-size: cover;
-  height: 100vh;
-  margin: 20px 10px 10px 5px;;
+.offer__article {
+  padding: 100px;
+  height: 50%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.offer__left {
-  background-color: var(--acntClr);
-  margin: 20px 5px 10px 10px;
+.offer .article__title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--linkClr);
+  padding-bottom: 5vh;
+}
+
+.offer .article__copy {
+  line-height: 20px;
+  color: var(--linkClr);
+  width: 50vw;
+}
+/*end of .offer elements styles*/
+
+
+/*.clients elements styles*/
+.clients__left {
+  background: url(../images/clients.jpg) center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.clients__right {
+  background-color: var(--blueAcntClr);
 
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.offer__article {
+.clients__article {
   padding: 100px;
   height: 50%;
 
@@ -132,24 +154,30 @@ Elements can be nested inside each other
   justify-content: center;
 }
 
-.article__title {
+.clients .article__title {
   font-size: 2em;
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--darkText);
+  color: rgb(90, 90, 90);
   padding-bottom: 5vh;
 }
 
-.article__copy {
+.clients .article__copy {
   line-height: 20px;
-  color: var(--darkText);
+  color: rgb(90, 90, 90);
 }
-/*end of .offer elements styles*/
+/*end of .clients elements styles*/
 
 
-
-
-
+/*.footer elements styles*/
+.contact__title {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(90, 90, 90);
+  padding-bottom: 5vh;
+}
+/*end of .footer elements styles*/
 
 
 

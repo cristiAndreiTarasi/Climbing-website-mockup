@@ -52,11 +52,24 @@ external geometry (margin) or positioning for the block.
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-gap: .5em; */
 }
 
 
 .offer {
+  height: 100vh;
+  background: url(../images/sds.jpg) center;
+  background-color: var(--yellAcntClr);
+  background-blend-mode: multiply;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.clients {
   height: 100vh;
 
   display: grid;
@@ -64,15 +77,12 @@ external geometry (margin) or positioning for the block.
 }
 
 
-.clients {
-  background-color: lightgreen;
-  height: 100vh;
-}
-
-
 .footer {
-  background-color: lightblue;
-  height: 100vh;
+  background-color: #f9f0dc;
+  height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

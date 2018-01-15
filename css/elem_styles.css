@@ -20,6 +20,7 @@ A composite part of a block that can't be used separately from it.
 Elements can be nested inside each other
 --------------------------------------------------*/
 
+/*.jumbo elements styles*/
 .social__item{
   margin-right: 30px;
 }
@@ -61,8 +62,89 @@ Elements can be nested inside each other
   font-weight: 700;
   text-transform: uppercase;
 }
+/*end of .jumbo elements styles*/
 
 
+/*.about elements styles*/
+.about__left {
+  background: url(../images/about_section.jpg) center;
+  background-size: cover;
+  height: 100vh;
+  margin: 10px 5px 10px 10px;
+}
+
+.about__right {
+  background-color: var(--acntClr);
+  margin: 10px 10px 10px 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__article {
+  padding: 100px;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article__title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--darkText);
+  padding-bottom: 5vh;
+}
+
+.article__copy {
+  line-height: 20px;
+  color: var(--darkText);
+}
+/*end of .about elements styles*/
+
+
+/*.offer elements styles*/
+.offer__right {
+  background: url(../images/about_section.jpg) center;
+  background-size: cover;
+  height: 100vh;
+  margin: 20px 10px 10px 5px;;
+}
+
+.offer__left {
+  background-color: var(--acntClr);
+  margin: 20px 5px 10px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offer__article {
+  padding: 100px;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article__title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--darkText);
+  padding-bottom: 5vh;
+}
+
+.article__copy {
+  line-height: 20px;
+  color: var(--darkText);
+}
+/*end of .offer elements styles*/
 
 
 

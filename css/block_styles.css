@@ -42,24 +42,33 @@ external geometry (margin) or positioning for the block.
 }
 
 .more {
-  justify-self: center;
+  display: flex;
+  justify-content: center;
 }
 
 
 .about {
-  background-color: brown;
   height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-gap: .5em; */
 }
 
+
 .offer {
-  background-color: lightcoral;
   height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
 
 .clients {
   background-color: lightgreen;
   height: 100vh;
 }
+
 
 .footer {
   background-color: lightblue;

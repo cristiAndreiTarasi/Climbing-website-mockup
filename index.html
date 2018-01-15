@@ -30,7 +30,7 @@
       <!-- end of social -->
 
       <!-- top page(.jumbo) header and title -->
-      <article class="card">
+      <article class="card card--margin">
         <p class="card__head">Your exploring aventure awaits</p>
         <p class="card__head">This winter with <span class="card__head--bolded">THE MOUNTAO AGENCY</span></p>
         <h2 class="card__title">The Mountain & You</h2>
@@ -44,14 +44,14 @@
     </div> <!-- end of jumbo -->
   
     <div class="about">
-      <div class="about__section">
-        <img src="images/about_section.jpg" alt="" class="about__thumbnail">
+      <div class="about__left">
+        <!-- <img src="images/about_section.jpg" alt="" class="about__thumbnail"> -->
       </div>
   
-      <div class="about__section">
-        <article>
-          <h3>About</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <div class="about__right">
+        <article class="about__article">
+          <h3 class="article__title">About</h3>
+          <p class="article__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Accusantium odio, aperiam corporis facere quasi iusto architecto modi
           tempore facilis ex eum, sit veniam ratione quam doloremque quisquam
           repellendus! Recusandae quos sapiente aspernatur odit unde totam
@@ -62,20 +62,20 @@
     </div> <!-- end of about -->
   
     <div class="offer">
-      <div class="offer__section">
-        <article>
-        <h3>Offer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        odio, aperiam corporis facere quasi iusto architecto modi tempore
-        facilis ex eum, sit veniam ratione quam doloremque quisquam repellendus!
-        Recusandae quos sapiente aspernatur odit unde totam necessitatibus eum
-        quam animi adipisci beatae dolores, veritatis sunt ea perferendis? Dolor
-        doloremque sunt autem?</p>
+      <div class="offer__left">
+        <article class="offer__article">
+          <h3 class="article__title">The Offer</h3>
+          <p class="article__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Accusantium odio, aperiam corporis facere quasi iusto architecto modi
+          tempore facilis ex eum, sit veniam ratione quam doloremque quisquam
+          repellendus! Recusandae quos sapiente aspernatur odit unde totam
+          necessitatibus eum quam animi adipisci beatae dolores, veritatis sunt
+          ea perferendis? Dolor doloremque sunt autem?</p>
         </article> 
       </div>
   
-      <div class="offer__section">
-        <img src="images/offer.jpg" alt="" class="offer__thumbnail">
+      <div class="offer__right">
+        <!-- <img src="images/offer.jpg" alt="" class="offer__thumbnail"> -->
       </div>
     </div> <!-- end of offer -->
   
@@ -108,9 +108,12 @@
         </ul>
       </div>
     </footer> <!-- end of footer -->
+
   </main>
 
-
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="script/jquery.fullPage.js"></script>
   <script src="https://use.fontawesome.com/78decfbfb9.js"></script>
   <script src="script/script.js"></script>
 </body>
